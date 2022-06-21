@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import csv
 
-p=pd.read_csv("/Users/cundo/Desktop/favaloro/labo de micro/TP_PYTHON/src/presion_tp1.csv")
+p=pd.read_csv("~/desktop/favaloro/labo de micro/TP_PYTHON/src/presion_tp1.csv")
 print(type(p))
 Fs=500
 Ts=1/Fs
